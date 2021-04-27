@@ -5,7 +5,11 @@ import './App.scss';
 function App() {
   return (
     <div className="App">
-      <Btn1 children="Button" />
+      <div className="buttons">
+        <Btn1 size="large">BUTTON</Btn1>
+        <Btn1>BUTTON</Btn1>
+        <Btn1 size="small">BUTTON</Btn1>
+      </div>
     </div>
   );
 }
