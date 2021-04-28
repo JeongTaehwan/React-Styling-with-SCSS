@@ -13,20 +13,42 @@ function App() {
       <div className="buttons">
         <Btn1 size="large" color="gray">
           BUTTON
-      </Btn1>
+        </Btn1>
         <Btn1 color="gray">BUTTON</Btn1>
         <Btn1 size="small" color="gray">
           BUTTON
-      </Btn1>
+        </Btn1>
       </div>
       <div className="buttons">
         <Btn1 size="large" color="pink">
           BUTTON
-      </Btn1>
+        </Btn1>
         <Btn1 color="pink">BUTTON</Btn1>
         <Btn1 size="small" color="pink">
           BUTTON
-      </Btn1>
+        </Btn1>
+      </div>
+      <div className="buttons">
+        <Btn1 size="large" color="blue" outline>
+          BUTTON
+        </Btn1>
+        <Btn1 color="gray" outline>
+          BUTTON
+        </Btn1>
+        <Btn1 size="small" color="pink" outline>
+          BUTTON
+        </Btn1>
+      </div>
+      <div className="buttons">
+        <Btn1 size="large" fullWidth>
+          BUTTON
+        </Btn1>
+        <Btn1 size="large" fullWidth color="gray">
+          BUTTON
+        </Btn1>
+        <Btn1 size="large" fullWidth color="pink">
+          BUTTON
+        </Btn1>
       </div>
     </div>
   );
