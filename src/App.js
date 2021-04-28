@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="App">
       <div className="buttons">
-        <Btn1 size="large">BUTTON</Btn1>
+        <Btn1 size="large" onClick={() => console.log('클릭됐다!')}>
+          BUTTON
+        </Btn1>
         <Btn1>BUTTON</Btn1>
         <Btn1 size="small">BUTTON</Btn1>
       </div>
@@ -43,10 +45,10 @@ function App() {
         <Btn1 size="large" fullWidth>
           BUTTON
         </Btn1>
-        <Btn1 size="large" fullWidth color="gray">
+        <Btn1 size="large" color="gray" fullWidth>
           BUTTON
         </Btn1>
-        <Btn1 size="large" fullWidth color="pink">
+        <Btn1 size="large" color="pink" fullWidth>
           BUTTON
         </Btn1>
       </div>
