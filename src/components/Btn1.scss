@@ -7,9 +7,11 @@ $pink: #f06595;
   &:hover {
     background: lighten($color, 10%);
   }
+
   &:active {
     background: darken($color, 10%);
   }
+
   &.outline {
     color: $color;
     background: none;
@@ -68,7 +70,7 @@ $pink: #f06595;
   & + & {
     margin-left: 1rem;
   }
-  
+
   &.fullWidth {
     width: 100%;
     justify-content: center;
